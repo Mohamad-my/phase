@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+             @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+        body{
+        margin: 12px;
+        padding: 20px;
+        background-color: white;
+        background-image: url("images/istockphoto.gif");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+        legend{
+        color: white;
+    }
+     .input-filed{
+        color:white;
+     }
+    </style>
+    <title>reservation</title>
+</head>
+<body>
+    
+    <form>
+        <fieldset>
+            <legend>Reservation</legend>
+            <div class="input-filed">
+        <input type="text" name="input-filed"  placeholder="Email" required> <br>
+        <input type="password" name="input-filed" placeholder="password" required><br>
+        Going day:  <input type="date" name="input-filed" required><br>
+        Return day: <input type="date" name="input-filed" required><br>
+        Number of tickets:<input type="number" min="1"  max="10" name="input-filed" required><br>
+        <select name="Choose the ticket class"> Choose the ticket class:
+            <option value="First class" selected> First class</option>
+            <option value="Economy class" selected> Economy class</option>
+        </select>
+          
+        <br>
+         are you sure:<input type="checkbox" name="input-filed" required><br>
+        </div>
+          <input type="submit" value="Book your ticket"> <br>
+        </fieldset>
+    </form>
+
+
+
+
+
+
+
+</body>
+</html>
